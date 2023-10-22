@@ -60,7 +60,7 @@ Function Connect-Keyhan(){
     }
     sleep 2
 	
-    $wshell.SendKeys('keya')
+    $wshell.SendKeys('***')
     $wshell.SendKeys('{ENTER}')
     Sleep 5
 
